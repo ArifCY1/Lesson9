@@ -1,0 +1,34 @@
+@keyframes color-change {
+    0% {
+      color: white;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: white;
+    }
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+h1 {
+    animation: color-change 3s infinite;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+h2 {
+    color: aqua;
+}
+ul {
+    animation: color-change 1s infinite;
+}
+p {
+    color: white;
+}
